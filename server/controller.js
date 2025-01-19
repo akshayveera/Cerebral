@@ -1,4 +1,4 @@
-const db = require('./db');
+const pool = require('./db');
 
 const getComponent2 = (req, res) => {
 
@@ -21,7 +21,7 @@ const getComponent6 = (req, res) => {
 }
 
 const sendDataFromDB = (query, res) => {
-    db.query(query, (err, data) => {
+    pool.query(query, (err, data) => {
         if(err) {
             console.log(err);
             res.status(500).json({error : 'Internal Server Error'});

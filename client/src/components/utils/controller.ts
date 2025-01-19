@@ -19,7 +19,7 @@ export async function getComp1Info(setData: any) {
 
 export async function getComp2Info(setData: any) {
 
-    const URL = "http://localhost:3000/api/v1/component2";
+    const URL = "https://cerebral-sigma.vercel.app/api/v1/component2";
 
     try {
       const response = await fetch(URL, {headers: headers});
@@ -33,7 +33,7 @@ export async function getComp2Info(setData: any) {
 
 export async function getComp6Info(setData: any) {
 
-  const URL = "http://localhost:3000/api/v1/component6";
+  const URL = "https://cerebral-sigma.vercel.app/api/v1/component6";
 
   try {
     const response = await fetch(URL, {headers: headers});
@@ -75,7 +75,7 @@ export async function getComp5Info(setData: any) {
 
 export async function getComp4Info(setData: any) {
 
-  const URL = "http://localhost:3000/api/v1/component4";
+  const URL = "https://cerebral-sigma.vercel.app/api/v1/component4";
 
   try {
     const response = await fetch(URL, {headers: headers});
