@@ -117,6 +117,6 @@ export async function isAuthenticated(username:string, password: string) {
   
 }
 
-export function getCommaseparated(num: number): string {
+export function getCommaseparated(num: number = 0): string {
   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }

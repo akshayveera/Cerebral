@@ -97,10 +97,10 @@ const Sidebar = () => {
             <div className="flex flex-col gap-2 fixed bottom-5 left-5 w-48">
                 <span 
                     onClick={handleLogout}
-                    className="text-sm text-gray-500 p-4 py-2 rounded-full border-2 border-gray-200 cursor-pointer flex gap-1 items-center hover:bg-white">
+                    className="text-sm text-gray-500 p-4 py-2 rounded-full border-2 bg-white cursor-pointer flex gap-1 items-center justify-center hover:bg-gray-200">
                         Logout
                 </span>
-                <div className="flex items-center bg-white rounded-2xl p-3 px-5 gap-2 ">
+                <div className="flex items-center bg-white rounded-full p-3 px-5 gap-2 ">
                     <Avatar className="h-7 w-7">
                         <AvatarImage  src="https://github.com/shadcn.png" />
                         <AvatarFallback>CN</AvatarFallback>
