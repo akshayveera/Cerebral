@@ -5,7 +5,7 @@ const app = express();
 const routes = require('./routes');
 
 const cors = require('cors');
-const whitelist = ['http://localhost:3000', 'http://localhost:4200', 'http://localhost:5173'];
+const whitelist = ['http://localhost:3000', 'http://localhost:4200', 'http://localhost:5173', 'https://cerebral-client.vercel.app'];
 
 // CORS options
 const corsOptions = {
