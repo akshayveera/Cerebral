@@ -1,0 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --color-dark-blue : #0066FF;
+    --color-light-blue : #99CCFF;
+  }
+}
+
+
+                
