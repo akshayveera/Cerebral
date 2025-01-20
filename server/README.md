@@ -1,6 +1,11 @@
 
 ### link for hosted server : https://cerebral-client.vercel.app/
 
+### Tech Stack
+- Node.js
+- Express.js
+- SQL Database
+
 ### APIS 
 
 - https://cerebral-sigma.vercel.app/api/v1/component1 (GET)
