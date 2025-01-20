@@ -4,7 +4,7 @@ headers.set('Authorization', 'Basic ' + btoa('trial:assignment123'));
 
 export async function getComp1Info(setData: any) {
 
-    const URL = "https://cerebral-sigma.vercel.app/api/v1/sample_assignment_api_1/";
+    const URL = "https://cerebral-sigma.vercel.app/api/v1/component1";
 
     try {
       const response = await fetch(URL, {headers: headers});
@@ -47,7 +47,7 @@ export async function getComp6Info(setData: any) {
 
 export async function getComp3Info(setData: any) {
 
-  const URL = "https://cerebral-sigma.vercel.app/api/v1/sample_assignment_api_3";
+  const URL = "https://cerebral-sigma.vercel.app/api/v1/component3";
 
   try {
     const response = await fetch(URL, {headers: headers});
@@ -61,7 +61,7 @@ export async function getComp3Info(setData: any) {
 
 export async function getComp5Info(setData: any) {
 
-  const URL = "https://cerebral-sigma.vercel.app/api/v1/sample_assignment_api_5";
+  const URL = "https://cerebral-sigma.vercel.app/api/v1/component5";
 
   try {
     const response = await fetch(URL, {headers: headers});
